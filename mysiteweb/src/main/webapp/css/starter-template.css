@@ -1,0 +1,137 @@
+body {
+  padding-top: 30px;
+  background-color:#dee7ee;
+}
+.starter-template {
+  text-align: center;
+  margin-top: 52px;
+}
+
+.navbar-inverse {
+    background-color: #220D4A;
+    border-color: #080808;
+}
+
+.thumbnail .caption {
+    padding: 0px;
+    color: #333;
+}
+
+#done{
+ margin-top:7px;
+}
+
+div.wrapper{
+		float:left; /* important */
+		position:relative; /* important(so we can absolutely position the description div */ 
+	}
+	div.description{
+		position:absolute; /* absolute position (so we can position it where we want)*/
+		bottom:0px; /* position will be on bottom */
+		left:0px;
+		width:100%;
+		/* styling bellow */
+		background-color:black;
+		font-family: 'tahoma';
+		font-size:15px;
+		color:white;
+		opacity:0.6; /* transparency */
+		filter:alpha(opacity=60); /* IE transparency */
+	}
+
+	/* #fullname{
+		position:absolute; absolute position (so we can position it where we want)
+		opacity:0.6; transparency
+		filter:alpha(opacity=60); IE transparency
+	    padding:10px;
+		margin-left:155px;
+		width:28%;
+		border: 2px dashed #000000;
+		top:1009px;
+		height:46px;
+		font-size:30px;
+		color:#000000;
+	} */
+    /* #signDate{
+	    position:absolute; absolute position (so we can position it where we want)
+		opacity:0.6; transparency
+		filter:alpha(opacity=60); IE transparency
+	    padding:10px;
+		margin-left:155px;
+		width:28%;
+		border: 2px dashed #000000;
+		top:1100px;
+		height:48px;
+		font-size:28px;
+	    color:#000000;
+	} */
+	
+	#addSign{
+	    position:absolute; /* absolute position (so we can position it where we want)*/
+		opacity:0.6; /* transparency */
+		filter:alpha(opacity=60); /* IE transparency */
+	    padding:10px;
+		margin-left:155px;
+		width:28%;
+		top:913px;
+		height:48px;
+		font-size:28px;
+	    color:#000000;
+	}
+	
+	/* #userSign{
+	    position:absolute; absolute position (so we can position it where we want)
+		opacity:0.6; transparency
+		filter:alpha(opacity=60); IE transparency
+	    padding:10px;
+		margin-left:155px;
+		width:28%;
+		border: 2px dashed #000000;
+		top:913px;
+		height:48px;
+		font-size:28px;
+	    color:#000000;
+	} */
+
+	p.description_content{
+		padding:10px;
+		margin-left:135px;
+
+	}
+	
+	.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+#draggable1{
+	
+	 margin-top: 55px;
+}
+
+#setimage{
+	    margin-top: 55px;
+}
+
+
+#setimage1{
+	    margin-top: 55px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+img.active
+{
+    border-color: green;
+}
